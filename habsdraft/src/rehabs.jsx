@@ -1,5 +1,5 @@
 import * as React from 'react'
-import StarRating from "./StarRating.jsx"
+import NewStarating from "./NewStarating.jsx"
 
 
 
@@ -13,7 +13,7 @@ const UserProfile = (props) => {
             props.data.map (content =>(
               <li>
                 <span><strong>ID:</strong> {content._id.$oid}</span>
-                <StarRating />
+                <NewStarating />
               
               </li>
             ))
